@@ -10,7 +10,7 @@ end
 board = [" "," "," "," "," "," "," "," "," "]
 
 def input_to_index(input)
-  input.to_i
+  input.to_i - 1
 end
 
 def move(array, index, character = "X")
