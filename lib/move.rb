@@ -14,6 +14,6 @@ def input_to_index(input)
 end
 
 def move(array, index, input="X")
-bo
+board[index] =
 return board
 end
