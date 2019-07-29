@@ -11,6 +11,7 @@ board = [" "," "," "," "," "," "," "," "," "]
 
 def input_to_index(input)
   input.to_i - 1
+  return input
 end
 
 def move(array, index, input="X")
